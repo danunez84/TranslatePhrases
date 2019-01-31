@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="4">
+
+
+        <Button
+            android:id="@+id/doyouspeakenglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="DoYouSpeakEnglish"
+            android:text="Do you &#10; speak english?"
+            android:textScaleX="1"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/goodevening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="GoodEvening"
+            android:text="Good evening"
+            android:textScaleX="1"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="Hello"
+            android:text="Hello"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/howareyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="HowAreYou"
+            android:text="How are you?"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/ilivein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="ILiveIn"
+            android:text="I live in"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/mynameis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="MyNameIs"
+            android:text="My name is"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/please"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="Please"
+            android:text="Please"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playPhraseInFrench"
+            android:tag="Welcome"
+            android:text="Welcome"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
